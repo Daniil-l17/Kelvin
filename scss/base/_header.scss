@@ -1,0 +1,362 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,600&family=Oswald:wght@700&family=Poppins:wght@600&display=swap');
+
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: 
+  #F1F1F1;
+}
+
+
+  .header{
+  background-color: #F1F1F1;
+  padding-top: 46px;
+  } 
+
+  .container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+
+  .header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  }
+
+  .nav-nav{
+    ul{
+      display: flex;
+      column-gap: 50px;
+      .vddv3{
+  color: 
+  #606060;
+      }
+      li{
+        color: black;
+      cursor: pointer;
+      font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+      }
+      li:hover{
+        color: #FDA300;
+      }
+    }
+  }
+
+  .header-nav{
+    margin-bottom: 76px;
+    a{
+      position: relative;
+      color: #000;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 32px */
+padding-right: 12px;
+padding-bottom: 3px;
+    }
+  }
+
+
+  .vdvddvd4::after{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: 
+    #FDA300;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+  }
+
+
+  .header-content{
+    max-width: 500px;
+    margin-top: 124px;
+    h1{
+      color: #000;
+      font-family: Poppins;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+    p{
+      color: #000;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 200%; /* 28px */
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+
+  .header-img{
+    img{
+      cursor: pointer;
+    }
+  }
+
+  .portfolio{
+  padding-bottom: 90px;
+  }
+
+
+  .serviris{
+    padding: 90px 0;
+  img{
+    margin-bottom: 40px;
+  }
+  h3{
+    margin-bottom: 10px;
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+  }
+  p{
+    color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 28px */
+  }
+  }
+
+  .servise-row{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+  }
+
+  .servise-cars{
+    flex: 1 1 0;
+    min-width: 315px;
+  }
+
+  .portfolio-titlwe{
+    h2{
+      margin-bottom: 70px;
+      color: var(--black, #070707);
+      text-align: center;
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+  }
+
+  .project{
+    text-align: center;
+    p{
+      color: var(--black, #070707);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+cursor: pointer;
+    }
+    img{
+      margin-bottom: 40px;
+    }
+  }
+
+  .serviris{
+    background-color: #ffffff;
+  }
+
+  .portfolio{
+    padding-top: 90px;
+  }
+
+  .project + .project{
+    margin-top: 90px;
+  }
+
+  .contact{
+    background-color: white;
+    padding: 90px 0;
+  }
+
+.contact-title{
+  h2{
+    color: var(--black, #070707);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.contack-cdd{
+  color: var(--black, #070707);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-button{
+  margin-bottom: 80px;
+  text-align: center;
+a{
+  color: white;
+  padding: 7px 22px;
+  background-color: #000;
+  color: white;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+a:hover,a:focus{
+  background-color: #424242;
+}
+a:active{
+  background-color: #000;
+  position: relative
+  ;
+  top: 1px;
+}
+}
+
+.contac-social{
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  margin-bottom: 41px;
+  align-items: center;
+}
+
+.contact-footer{
+  color: #828282;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
